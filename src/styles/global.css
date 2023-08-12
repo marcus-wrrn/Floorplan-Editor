@@ -1,0 +1,37 @@
+@import "./variables.css";
+
+.header-text {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.info-text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.bold-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.details-text {
+  font-size: 1.4rem;
+}
+
+.home-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.event-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+  align-self: center;
+}

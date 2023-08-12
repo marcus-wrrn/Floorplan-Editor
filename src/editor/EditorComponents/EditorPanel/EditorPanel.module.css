@@ -1,0 +1,50 @@
+@import "../../../styles/variables.css";
+
+.container {
+    border-right: 0px solid black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0px;
+    height: 100%;
+    width: 19%;
+    background-color: rgb(235, 235, 235);
+    /* inset 0 0 10px rgb(40, 40, 40) */
+    box-shadow: inset 0px 8px 5px -5px rgba(40, 40, 40, 0.5);
+}
+
+.headerText {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tableContainer {
+    /* display: grid;
+    grid-template: 1fr 1fr; */
+    position: absolute;
+    top: 10%;
+}
+
+.tablePanel {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 6%;
+    background-color: rgb(249, 249, 249);
+    box-shadow: inset 0 0 10px rgb(40, 40, 40);
+    border-radius: 3.4%;
+}
+
+.tableDisplay {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}

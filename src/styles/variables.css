@@ -1,0 +1,15 @@
+:root {
+  /* General */
+  --outer-background-color: rgb(30, 30, 30);
+  --inner-background-color: rgb(240, 240, 240);
+  --box-shadow-color: rgba(0, 0, 0, 0.3);
+  --border-color: rgb(40, 40, 40);
+
+  /* Lists */
+  --list-hover-color: #f5f5f5;
+
+  /* Event Editor */
+  --editor-background-color: rgb(245, 245, 245);
+  --virtual-screen-border-color: rgb(40, 40, 40);
+  --overlay-background-color: rgb(255, 255, 255, 0.5);
+}

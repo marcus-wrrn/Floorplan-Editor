@@ -1,0 +1,134 @@
+.floorplan-editor {
+    position: relative;
+    right: 0;
+    display: flexbox;
+    width: 100%;
+    min-height: 92vh;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.circle-table {
+    position: absolute;
+    width: 120px;   /* */
+    height: 120px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5.2px solid black;
+    border-color: black;
+    background-color: transparent;
+}
+
+.rectangle-table {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5.2px solid black;
+    border-color: black;
+}
+
+.table-inner-circle {
+    border: 10px solid #821818;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.editorscreen-table-dragging {
+    opacity: 1;
+}
+
+.table-dragging {
+    display: none;
+}
+
+.editorscreen-table-container {
+    position: relative;
+}
+
+.table-handle {
+position: absolute;
+width: 100px;
+height: 100px;
+background-color: transparent;
+cursor: grab;
+}
+
+.editorscreen-full-screen-container {
+    position: absolute;
+    right: 0px;
+    width: 81%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: rgb(230, 243, 244); */
+    background-color: white;
+}
+
+.editorscreen-editor-panel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0px;
+    height: 100%;
+    width: 19%;
+    background-color: rgb(245, 245, 245);
+    
+}
+  
+.editorscreen-edit-panel-tables {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20%;
+    gap: 10px;
+}
+
+.edit-buttons {
+    position: relative;
+    display: flex;
+    padding: 7px;
+}
+
+.editorscreen-editor-circle-table {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.editorscreen-editor-rectangle-table {
+    align-items: center;
+    justify-content: center;
+}
+
+.editorscreen-tabledisplay {
+    justify-content: space-between;
+}
+
+.editorscreen-top-panel-tabledisplay {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 15px;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgb(135, 87, 27);
+}
+
+.table-select {
+    position: relative;
+    /* border: 5px solid rgb(53, 52, 52); */
+    border-radius: 500%;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 5px solid rgb(53, 52, 52);
+    outline-offset: 5px;
+}

@@ -1,0 +1,21 @@
+@import "../../../styles/variables.css";
+
+.container {
+    z-index: 50;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 200px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    transform: translate(-50%, -50%);
+    font-size: 32;
+}
+
+.contents {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 13px;
+}

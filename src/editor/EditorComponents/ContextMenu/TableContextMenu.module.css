@@ -1,0 +1,23 @@
+.contextMenu {
+    border: 3px solid #bbb7b72d;
+    background-color: rgb(236, 231, 231);
+    border-radius: 6%;
+    width: 175px;
+    height: 150px;
+}
+
+.ul {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.li {
+    padding: 10px 10px;
+}
+
+.ul .li:hover {
+    cursor: pointer;
+    background-color: #9b8b8b;
+}

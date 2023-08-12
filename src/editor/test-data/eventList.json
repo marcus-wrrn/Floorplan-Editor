@@ -1,0 +1,116 @@
+[
+{
+  "eventName": "The Office Wedding",
+  "images": ["img1loc","img2loc","img3loc"],
+  "homeScreenText": "Jim & Pam",
+  "guests": [
+    {
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "table": 1
+    },
+    {
+      "firstName": "Dwight",
+      "lastName": "Schrute",
+      "table": 1
+    },
+    {
+      "firstName": "Angela",
+      "lastName": "Martin",
+      "table": 2
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Malone",
+      "table": 2
+    },
+    {
+      "firstName": "Oscar",
+      "lastName": "Martinez",
+      "table": 3
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Howard",
+      "table": 3
+    },
+    {
+      "firstName": "Kelly",
+      "lastName": "Kapoor",
+      "table": 4
+    },
+    {
+      "firstName": "Stanley",
+      "lastName": "Hudson",
+      "table": 4
+    },
+    {
+      "firstName": "Creed",
+      "lastName": "Bratton",
+      "table": 5
+    },
+    {
+      "firstName": "Meredith",
+      "lastName": "Palmer",
+      "table": 5
+    }
+  ] 
+},
+{
+  "eventName": "Suits Wedding",
+  "images": ["img1loc","img2loc","img3loc"],
+  "homeScreenText": "Mike & Rachel",
+  "guests": [
+    {
+      "firstName": "Harvey",
+      "lastName": "Specter",
+      "table": 1
+    },
+    {
+      "firstName": "Donna",
+      "lastName": "Paulsen",
+      "table": 1
+    },
+    {
+      "firstName": "Louis",
+      "lastName": "Litt",
+      "table": 2
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Pearson",
+      "table": 2
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Williams",
+      "table": 3
+    },
+    {
+      "firstName": "Katrina",
+      "lastName": "Bennett",
+      "table": 3
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Zane",
+      "table": 4
+    },
+    {
+      "firstName": "Samantha",
+      "lastName": "Wheeler",
+      "table": 4
+    },
+    {
+      "firstName": "Gretchen",
+      "lastName": "Bodinski",
+      "table": 5
+    },
+    {
+      "firstName": "Sean",
+      "lastName": "Cahill",
+      "table": 5
+    }
+  ]
+}
+]

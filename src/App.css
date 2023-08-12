@@ -1,0 +1,32 @@
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.outer-container {
+  background-color:#282c34;
+}
+
+.header {
+  display: inline-block; 
+  color: 'white'; 
+  font-size: 19px;
+  font-weight: 'bold';
+  width: 100%;
+  height: 8vh;
+  /* background-color: #282c34; */
+  top: 0px;
+  border-color: blueviolet;
+  vertical-align: top;
+  background: linear-gradient(#282c34 10% 40%, #101c2f 100% 80%);
+}
+
+.header_text {
+  padding-left: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

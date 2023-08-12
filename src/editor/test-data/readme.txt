@@ -1,0 +1,1 @@
+This directory will contain placeholder data used for testing purposes.
