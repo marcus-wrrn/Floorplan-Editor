@@ -9,4 +9,4 @@ Other changes will involve updating the styling, adding color changing back to t
 I am also considering to change the project into a mind map tool. I don't have a personal need for a floorplan editor but a mind map tool would be nice. The code itself is already fairly set up for it.
 
 This is how the editor currently appears
-![Alt text](<Screenshot from 2023-08-12 14-10-34.png>)
+![Alt text](image.png)
