@@ -75,28 +75,6 @@ function App() {
     }
   }, []);
 
-  // useEffect(() => {
-  //   const updateSize = () => {
-
-  //     if (headerRef.current) {
-  //       const rect = headerRef.current.getBoundingClientRect();
-  //       const height = rect.top >= 0 && rect.bottom <= window.innerHeight ? rect.height : 0;
-  //       setHeaderDim({width: rect.width, height});
-  //     }
-  //     if (containerRef.current && containerRef.current instanceof HTMLDivElement) {
-  //       const containerRect = containerRef.current.getBoundingClientRect();
-  //       setContainerDim(containerRect);
-  //   }
-
-  //   window.addEventListener('resize', updateSize);
-  //   window.addEventListener('scroll', updateSize);
-  //   updateSize();
-  //   return () => {
-  //     window.removeEventListener('resize', updateSize);
-  //     window.removeEventListener('scroll', updateSize);
-  //   }
-  // }}, []);
-
   return (
     <BrowserRouter>
       <div className="outer-container">
