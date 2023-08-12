@@ -1,6 +1,6 @@
 # Floor Plan Editor
 
-Originally created as part of a much larger project for my job but was scrapped due to a change in project scope. Due to my involvement with the editor feature, I was given full ownership of the code and have been given permission to present this on my github. All code found in this repository is my own. 
+Originally created as part of a much larger project for my job but was scrapped due to a change in project scope. Due to my involvement with the editor feature, I was given full ownership of the code and have been given permission to present this on my github. All code found in this repository is my own and no code that was not written by myself should remain. 
 
 Since this was originally part of a much larger codebase some functionality is broken or has been removed. The major portion is in the save functionality and database connection. I am currently working on adding the functionality back and integrating it with a new database/backend. This backend will be built using Node with express and the database will be using postgres. As it was originally made using a serverless architecture with a non-relational database this will take me some time to complete. Additionally I'm working on migrating the project to Typescript which will make the code much easier to work with in the long run.
 
