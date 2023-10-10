@@ -14,7 +14,7 @@ This is how the editor currently appears
 Some notable features include:
 - undo/redo functionality (Ctrl + z, Ctrl + y)
 - drag and drop for easy table creation
-- tables snap to grid while dragging, for easy placement (Snap to grid while dragging took me an entire week to implement, much harder than it looks)
+- tables snap to grid while dragging, for easy placement
   - Use the arrow keys while a table is selected to finetune placement (sidenote the delete key will delete a selected table)
 - Functioning context menu for quick table editing
 
