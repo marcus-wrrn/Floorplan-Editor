@@ -1,8 +1,8 @@
 # Floor Plan Editor
 
-Originally created as part of a much larger project for my job but was scrapped due to a change in project scope. Due to my involvement with the editor feature, I was given full ownership of the code and have been given permission to present this on my github. All code found in this repository is my own and any code that was not written by myself has been removed.
+Originally created as part of a much larger project but has since become its own thing.
 
-Since this was originally part of a much larger codebase some functionality is broken or has been removed. The major portion is in the save functionality and database connection. I am currently working on adding the functionality back and integrating it with a new database/backend. This backend will be interacted with through a REST API.
+Some functionality is broken or has been removed after becoming a solo project. The major portion is in the save functionality and database connection. I am currently working on adding the functionality back and integrating it with a new database/backend. This backend will be interacted with through a REST API.
 
 Other changes will involve updating the styling, adding color changing back to the tables, allowing users to increase table size, multi table selection, and copy/paste functionality. 
 
